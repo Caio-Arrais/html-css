@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'love' ;
+    src: url(fonts/love\ larry\ ttf.ttf) format('truetype');
+    font-weight: normal;
+    /*
+        Tipos de format()
+        -> opentype (otf)
+        -> truetype (ttf)
+        -> embedde-opentype
+        -> truetype-aat (Apple-Advanced-Typegraphy)
+        -> svg
+     */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1, h2 {
+    font-family: 'love', 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    font-weight: normal;
+}
